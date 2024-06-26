@@ -1,0 +1,18 @@
+button {
+	background-color: #fef3b1;
+	color: #fe713d;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px !important;
+	margin-bottom: 10px !important;
+}
+
+img {
+	border: 1px solid #fef3b1;
+	width: 75% !important;
+	border-radius: 5px !important;
+}
+
+h2 {
+	font-size: 25px !important;
+}
