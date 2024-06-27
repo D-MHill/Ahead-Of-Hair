@@ -1,10 +1,11 @@
+// Get all the buttons with the class 'shop'
+let shopButtons = document.querySelectorAll(".shop");
 
-    // Add event listeners to all buttons with class 'shop'
-    document.querySelectorAll('.shop').forEach(button => {
-      button.addEventListener('click', function() {
-        const category = this.getAttribute('data-category');
-        // Redirect to list.html with the selected category as a URL parameter
-        window.location.href = `list.html?category=${category}`;
-      });
-    });
-  
+// Loop through each button
+shopButtons.forEach(function (button) {
+	// Add a 'click' event listener to each button
+	button.addEventListener("click", function () {
+		// Redirect to 'list.html' with the selected category as a URL parameter
+		window.location.href = "list.html";
+	});
+});
