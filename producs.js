@@ -5,7 +5,7 @@ let shopButtons = document.querySelectorAll(".shop");
 shopButtons.forEach(function (button) {
 	// Add a 'click' event listener to each button
 	button.addEventListener("click", function () {
-		// Redirect to 'list.html' with the selected category as a URL parameter
+		// Redirect to 'list.html' 
 		window.location.href = "list.html";
 	});
 });

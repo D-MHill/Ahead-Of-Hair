@@ -10,9 +10,10 @@ button {
 img {
 	border: 1px solid #fef3b1;
 	border-radius: 5px !important;
-	
+	width: 100%;
+	max-width: 200px;
+	height: auto;
 }
-
 
 h2 {
 	font-size: 25px !important;
