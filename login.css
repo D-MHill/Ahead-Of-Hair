@@ -1,0 +1,14 @@
+.container {
+	box-sizing: border-box !important;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+#login-btn{
+	background-color: #fced9d !important;
+	border: none;
+	border-radius: 3px !important;
+	margin-bottom: 10px !important;
+    color: #fe713d;
+    font-weight: bold;
+}
